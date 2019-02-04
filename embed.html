@@ -1,0 +1,29 @@
+<div class="signup-box">
+  <form class="signup-form" action="https://mc.us16.list-manage.com/subscribe/post-json?u={uid}&id={listId}" method="GET">
+    <input type="hidden" name="mc_signupsource" value="hosted">
+    <div class="multiple-inputs">
+      <input class="input email-field" placeholder="" type="email" name="EMAIL" value="" id="mc-EMAIL" required>
+      <button type="submit" name="submit_form" value="" class="button submit" type="submit">Subscribe</button>
+    </div>
+  </form>
+</div>
+<div class="status-box status-box--success status-box--hidden">
+  <div class="status-animation status-animation--success">
+    <div class="svg">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-263.5 236.5 26 26">
+        <g class="svg-success">
+          <circle cx="-250.5" cy="249.5" r="12"/>
+          <path d="M-256.46 249.65l3.9 3.74 8.02-7.8"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+  <div class="status-notification">
+    <p>Thank you! We just sent out a confirmation link to your address. Please confirm.</p>
+  </div>
+  <div class="status-box status-box--error status-box--hidden">
+    <div class="status-notification">
+      <p>An error occured. Either you're already subscribed or your address is invalid.</p>
+    </div>
+  </div>
+</div>
