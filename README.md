@@ -1,4 +1,4 @@
-# mailchimp-async-form
+# Mailchimp Async Form
 ![Gif](https://i.imgur.com/FV8unDX.gif)
 
 Mailchimp's embedded signup forms open up new tabs. We want users to stay on our site after they click the subscribe button. All you need is your Mailchimp User and List id. Install via npm, import module, initialize with your ids — et voilà. You're done.
