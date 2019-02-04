@@ -9,7 +9,8 @@ npm i --save mailchimp-async-form
 ```
 Then include `mailchimp-async-form.js/mailchimp-async-form.css`.   
 Insert the embedcode from `embed.html` into your markup.   
-Replace `{uid}` and `{listId}` respectively.
+Replace `uid` and `listId` respectively.   
+Happiness.   
 
 <br/>
 <br/>
