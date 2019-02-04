@@ -8,8 +8,7 @@ npm i --save mailchimp-async-form
 Then include `mailchimp-async-form.js` and `mailchimp-async-form.css`.   
 Insert this embedcode, making sure to replace {uid} and {listId} respectively.
 
-`
-<div class="signup-box">
+`<div class="signup-box">
       <form class="signup-form" action="https://mc.us16.list-manage.com/subscribe/post-json?u={uid}&id={listId}" method="GET">
         <input type="hidden" name="mc_signupsource" value="hosted">
         <div class="multiple-inputs">
@@ -38,8 +37,7 @@ Insert this embedcode, making sure to replace {uid} and {listId} respectively.
         <p>An error occured. Either you're already subscribed or your address is invalid.</p>
       </div>
     </div>
-  </div>
-`
+  </div>`
 
 ## Demo
 
