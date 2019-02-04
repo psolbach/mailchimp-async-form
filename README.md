@@ -12,6 +12,6 @@ You're welcome to try mailchimp-async-form here. Either sign up to my newsletter
 
 
 ---
-Licensed under MIT.
-Done by Paul Solbach.
-This is a WIP.
+Licensed under MIT.   
+Done by Paul Solbach.   
+This is a WIP.   
