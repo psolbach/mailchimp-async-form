@@ -16,8 +16,8 @@ const mcAsyncForm = mailchimp-async-form('.your-signup-div');
 mcAsyncForm({uid, listId});
 ```
 
-<br/>
-Vanilla:<br/> 
+
+Vanilla:<br/>
 Include `mailchimp-async-form.{js,css}`.   
 Insert the embedcode into your markup.   
 Replace `uid` and `listId` respectively.   
