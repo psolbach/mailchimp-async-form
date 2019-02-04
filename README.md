@@ -5,8 +5,8 @@ Mailchimp's embedded signup forms open up new tabs. There's no way to ping the A
 ```js
 npm i --save mailchimp-async-form
 ```
-Then include `mailchimp-async-form.js` and `mailchimp-async-form.css`.   
-Insert the embedcode from `embedcode.html`, making sure to replace `{uid}` and `{listId}` respectively.
+Then include `mailchimp-async-form.js/mailchimp-async-form.css`.   
+Insert the embedcode from `embed.html`, making sure to replace `{uid}` and `{listId}` respectively.
 
 ## Demo
 
