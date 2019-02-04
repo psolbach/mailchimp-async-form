@@ -8,11 +8,13 @@ Mailchimp's embedded signup forms open up new tabs. We want users to stay on our
 npm i --save mailchimp-async-form
 ```
 Then include `mailchimp-async-form.js/mailchimp-async-form.css`.   
-Insert the embedcode from `embed.html`, making sure to replace `{uid}` and `{listId}` respectively.
+Insert the embedcode from `embed.html` into your markup.   
+Replace `{uid}` and `{listId}` respectively.
+
+<br/>
+<br/>
    
-   
-   
----
+
 Licensed under MIT.   
 Done by Paul Solbach.   
 This is a WIP.   
