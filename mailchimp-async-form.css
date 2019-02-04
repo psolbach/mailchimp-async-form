@@ -1,0 +1,145 @@
+button,
+input,
+optgroup,
+select,
+textarea,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.multiple-inputs {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+
+.email-field {
+  background-color: #f2f2f2;
+  display: inline-block;
+  height: 100%;
+  font: inherit;
+  padding: 0rem 1rem;
+}
+
+.button {
+  background-color: #5b82ce;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  outline: 0;
+  padding: 0rem 2rem;
+  font: inherit;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #5076bf;
+}
+
+.signup-inactive {
+  opacity: .5;
+  pointer-events: none;
+}
+
+
+.status-animation--loading {
+  width: 25px;
+  height: 25px;
+  background-color: #b9b9b9;
+  margin: 0 auto 1.5rem auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+.status-animation--error {
+  width: 25px;
+  height: 25px;
+  background-color: #111;
+  margin: 0 auto 1.5rem auto;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+.svg-success {
+  stroke-width: 2px;
+  stroke: #8EC343;
+  fill:none;
+}
+
+.svg-success path {
+    stroke-dasharray:17px, 17px; 
+    stroke-dashoffset: 0px;
+    -webkit-animation: checkmark 0.25s ease-in-out 0.7s backwards;
+    animation: checkmark 0.25s ease-in-out 0.7s backwards;
+}
+
+.svg-success circle {
+    stroke-dasharray:76px, 76px;
+    stroke-dashoffset: 0px;
+    transform:rotate(-90deg);
+    transform-origin: 50% 50%;
+    -webkit-animation: checkmark-circle 0.6s ease-in-out forwards;
+    animation: checkmark-circle 0.6s ease-in-out forwards;
+  }
+
+@keyframes checkmark {
+    0% {
+        stroke-dashoffset: 17px;
+    }
+
+    100% {
+        stroke-dashoffset: 0
+    }
+}
+
+@keyframes checkmark-circle {
+    0% {
+        stroke-dashoffset: 76px;
+    }
+
+    100% {
+        stroke-dashoffset: 0px;
+    }
+}
+
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+.status-box {
+  max-width: 18rem;
+  display: inline-block;
+}
+
+.status-box--loading {
+  display: inline-block;
+  min-width: 20rem;
+}
+
+.status-box--hidden {
+  display: none;
+}
