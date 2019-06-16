@@ -1,14 +1,14 @@
-# Mailchimp Async Form
+## 🔹 Mailchimp Async Form
 ![Gif](https://i.imgur.com/FV8unDX.gif)
 
 Mailchimp's embedded signup forms open up new tabs. We want users to stay on our site after they click the subscribe button. All you need is your Mailchimp User and List id. Install via npm, import module, initialize with your ids — et voilà. You're done.
 
-## Install
+### Install
 ```bash
 npm i --save mailchimp-async-form
 ```
 
-## Use
+### Use
 With Webpack:
 ```js
 import 'mailchimp-async-form';
@@ -27,6 +27,6 @@ Happiness.
 <br/>
    
 
-Licensed under MIT.   
-Done by Paul Solbach.   
-This is a WIP.   
+Licensed under MIT. Very much WIP.
+
+(c) FanMatics, Hamburg
